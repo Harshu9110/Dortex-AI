@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #E8E9E9;
+    
+}
+ 
+header{
+background-color: #131111;
+padding: 10px 20px;
+padding-right: 200px;
+display: flex;
+justify-content: flex-end;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    
+}
+ 
+
+.container {
+    position:static;
+    height: 100vh;
+    color: white;
+    background: url('/images/Rectangle\ 1.png') no-repeat center center/cover;
+    
+  }
+.content {
+    position:absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-80%);
+  }
+
+  .content h1 {
+    font-size: 5.8rem;
+    line-height: 1.2;
+
+  }
+
+  .content h1 span {
+    color: red;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: white;
+    color:black;
+}
+
+.about img {
+    width: 500px;
+    height: 400px;
+    margin-right: 150px;
+    margin-top: -20px;
+
+    
+}
+
+.about-content {
+    max-width: 500px;
+    margin-top: -200px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 200px;
+    line-height: 31.5px;
+    margin: 18px 0px;
+}
+
+.footer-content {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .favicon {
+    display: flex;
+    justify-content: center;
+   
+  }
+
+  span{
+    color: rgb(255, 0, 0);
+  }
+
