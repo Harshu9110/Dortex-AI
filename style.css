@@ -67,6 +67,19 @@ header nav a {
     color:black;
 }
 
+.join {
+  display: flex;
+  align-items: center;
+
+}
+
+.line {
+  background-color: red;
+  width: 10px;
+  height: 75px;
+  margin-right: 9px;
+}
+
 .about img {
     width: 500px;
     height: 400px;
@@ -111,6 +124,12 @@ p {
     justify-content: center;
    
   }
+
+  .favicon i {
+    color: white;
+    font-size: 24px;
+}
+
 
   span{
     color: rgb(255, 0, 0);
